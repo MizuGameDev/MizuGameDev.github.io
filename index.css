@@ -2,7 +2,7 @@
 {
     text-align: center;
     background-color: rgb(70, 70, 70);
-    font-family:monospace;
+    font-family: monospace;
 }
 
 #Header
@@ -15,8 +15,34 @@
     background-color: black;
 }
 
+#Links
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#InfoText
+{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 5%;
+    font-family: monospace;
+    font-size: large;
+}
+
 body
 {
     margin: 0%;
     border: 0%;
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
 }

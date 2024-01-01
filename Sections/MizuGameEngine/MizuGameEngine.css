@@ -1,0 +1,19 @@
+#Header
+{
+    margin: 0;
+    text-align: center;
+    background-color: rgb(80, 80, 80);
+    font-family: monospace;    
+}
+
+#InfoText
+{
+    text-align: center;
+    font-family: monospace;
+    font-size: larger;
+}
+
+body
+{
+    margin: 0;
+}
